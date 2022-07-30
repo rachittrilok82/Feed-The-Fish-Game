@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".RulesActivity">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:background="#9FE7F1F1"
+        android:text="Rules "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rule1"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:scrollHorizontally="false"
+        android:ems="10"
+
+        android:text="1. Each Yellow Ball gives 10 points."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rule2"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/rule1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:scrollHorizontally="false"
+
+        android:text="2. Each Green Ball gives 20 points."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rule3"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/rule2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:scrollHorizontally="false"
+
+        android:text="3. You will loose one life with each Red Ball collected."
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/rule4"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/rule3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:scrollHorizontally="false"
+
+        android:text="4. Tap on the screen to move your fish upwards."
+        android:textSize="20sp" />
+
+</RelativeLayout>
